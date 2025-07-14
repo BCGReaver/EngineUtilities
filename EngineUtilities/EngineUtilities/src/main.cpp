@@ -1,12 +1,12 @@
 ﻿#include <iostream>
-#include "../include/EngineUtilities/Vectors/Vector2.h"
-#include "../include/EngineUtilities/Vectors/Vector3.h"
-#include "../include/EngineUtilities/Vectors/Vector4.h"
-#include "../include/EngineUtilities/Rotations/Quaternion.h"
-#include "../include/EngineUtilities/Matrices/Matrix2x2.h"
-#include "../include/EngineUtilities/Matrices/Matrix3x3.h"
-#include "../include/EngineUtilities/Matrices/Matrix4x4.h"
-#include "../include/EngineUtilities/EngineMath/EngineMath.h"
+#include "../include/Vectors/Vector2.h"
+#include "../include/Vectors/Vector3.h"
+#include "../include/Vectors/Vector4.h"
+#include "../include/Rotations/Quaternion.h"
+#include "../include/Matrices/Matrix2x2.h"
+#include "../include/Matrices/Matrix3x3.h"
+#include "../include/Matrices/Matrix4x4.h"
+#include "../include/EngineMath/EngineMath.h"
 
 using namespace std;
 using namespace EngineUtilities::Vectors;
@@ -14,8 +14,7 @@ using namespace EngineUtilities::Rotations;
 using namespace EngineUtilities::Matrices;
 using namespace EngineUtilities::EngineMath;
 
-int
-main() {
+int main() {
   cout << "==== PRUEBA DE VECTORES ====" << endl;
   Vector2 vec2(3.0f, 4.0f);
   cout << "Vector2: " << vec2.toString() << " | Magnitud: " << vec2.length() << endl;
@@ -73,3 +72,4 @@ main() {
 
   return 0;
 }
+
