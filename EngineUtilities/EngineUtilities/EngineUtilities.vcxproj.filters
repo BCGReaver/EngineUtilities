@@ -25,6 +25,9 @@
     <Filter Include="Header Files\EngineMath">
       <UniqueIdentifier>{d446e4e2-48b2-4f86-b5a1-4156a28bd431}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\ECS">
+      <UniqueIdentifier>{0a5d3e95-3504-417f-9e46-b8536fa5fbea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -55,6 +58,15 @@
     </ClInclude>
     <ClInclude Include="include\EngineMath\EngineMath.h">
       <Filter>Header Files\EngineMath</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Entity.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\Component.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ECS\System.h">
+      <Filter>Header Files\ECS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
