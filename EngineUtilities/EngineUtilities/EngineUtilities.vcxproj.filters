@@ -13,10 +13,48 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Vectors">
+      <UniqueIdentifier>{05cbc7a7-38b0-4461-bb38-b7eeffd9ce0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rotations">
+      <UniqueIdentifier>{96c1382f-f76b-45b5-9a51-f161ed612957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matrices">
+      <UniqueIdentifier>{c92ac923-7768-4697-9bb0-af32d55c8e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EngineMath">
+      <UniqueIdentifier>{d446e4e2-48b2-4f86-b5a1-4156a28bd431}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\EngineUtilities\Vectors\Vector2.h">
+      <Filter>Header Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineUtilities\Vectors\Vector3.h">
+      <Filter>Header Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineUtilities\Vectors\Vector4.h">
+      <Filter>Header Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineUtilities\Rotations\Quaternion.h">
+      <Filter>Header Files\Rotations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineUtilities\Matrices\Matrix2x2.h">
+      <Filter>Header Files\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineUtilities\Matrices\Matrix3x3.h">
+      <Filter>Header Files\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineUtilities\Matrices\Matrix4x4.h">
+      <Filter>Header Files\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\EngineUtilities\EngineMath\EngineMath.h">
+      <Filter>Header Files\EngineMath</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
